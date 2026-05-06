@@ -24,3 +24,4 @@ elif tipo_de_operacion == "5":
     print("el modulo es: ",modulo)
 elif tipo_de_operacion == "6":
     print("la potencia es: ",potencia)
+

@@ -27,11 +27,13 @@ nombre = "gato"
 apellido = "pris"
 edad = 99
 altura = 3.40
-activo = truediv
+activo = 
 correo = "jsyajdgfefhf@sena.edu.co"
 telefono = "3001142090"
 cedula = "345677654"
 telefono_int = int(telefono)
+programa = "ADSO"
+ficha ="3321349"
 
 print(type(nombre)),
 print(type(apellido)),apellido
@@ -42,7 +44,7 @@ print(type(correo)),correo
 print(type(telefono_int)),telefono
 print(type(telefono),telefono_int)
 
-print(type(nombre)),
+print(type(nombre), nombre)
 print(type(apellido)),apellido
 print(type(edad)),edad
 print(type(altura)),altura
@@ -62,3 +64,7 @@ if True:
 
 
 
+
+# Impresion con formato f-string
+print(f" {variable}")
+print(f"plis {nombre_completo},tienes{edad} años.") 
